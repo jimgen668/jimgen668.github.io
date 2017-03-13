@@ -1,16 +1,173 @@
 <!DOCTYPE html>
-<html lang = "zh-cn">
-   <head> 
-	   <meta charset = "UTF-8">
-	   <meta http-equiv = "x-ua-compatible" content = "IE = Edge">
-	   <meta name = "keywords" content = "web">
-	   <title>hello world </title>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv = "x-ua-compatible" content = "IE =Edge">
+	<meta name = "keywords" content = "web前端个人简历,web前端,html5"/>
+	<meta name = "description" content = "湛进林的web前端个人简历"/>
+	<meta name = "viewport" content = "width = device-width,initial-scale = 1.0,minimum-scale=1.0,maximum-scale=1.0">                
+	<title>web前端个人简历</title>
+	<link type = "text/css" rel = "stylesheet" href = "css/bootstrap.min.css">
+  <link type = "text/css" rel = "stylesheet" href = "css/font-awesome.css">
+	<link type = "text/css" rel = "stylesheet" href = "css/index.css">
+<!-- 	<link type = "text/css" rel = "stylesheet" href = "css/swiper.min.css">
+ -->	<link type = "text/css" rel = "stylesheet" href = "css/jquery.fullpage.css">
+	<link rel = "shortcut icon " href = "images/star.ico">
+</head>
+<body>
 
-   </head>
-   <body>
-	   hello world!
-	   
-  </body>
+    <!-- preloader section -->
+
+    <div class="preloader">
+
+	  <div class="sk-spinner sk-spinner-wordpress">
+       <span class="sk-inner-circle"></span>
+      </div>
+      <span>正在加载中,请稍后..........</span>
+    </div>
+    <!-- preloader end -->
+        <header>
+           <div class = "row">
+             <div class = "col-sm-6 col-xs-12 col-md-4"><img src = "images/head-photo.jpg" 
+             class = "left "><span class = "left text-center">前端开发工程师</span></div>
+             <ul class = "col-sm-4 row col-sm-offset-4 hidden-xs hidden-sm">
+                 <li class = "col-sm-3" ><a href = "#page1" class = "active" ><i class = "icon-edit"></i>首页</a></li>
+                 <li class = "col-sm-3 "><a class = "skills" href = "#page2">专业技能</a>
+                     <div class = "skills-details">
+                           <ul>
+                              <li id = "pc"><a href = "#page2">PC端</a></li>
+                              <li id = "mobile"><a href = "#">移动端</a></li>
+                              <li id = "other"><a href = "#">其他</a></li>
+                           </ul>
+                     </div>  
+                  </li>
+                 <li class = "col-sm-3" ><a href = "#page3">我的作品</a></li>
+                 <li class = "col-sm-3" ><a href = "#page4">联系我</a></li>
+              </ul>  
+            </div>
+       </header>
+    <div id = "main-content">
+        <div class = "section section1 active" > 
+            <img src="images/return-back.png" alt = "" class = "logo" style="padding:0;margin:0;border:0; -webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;">
+             <h3><h3>
+             <img src ="images/my_avatar.jpg" id = "img1" alt = "图像">
+             <p class = "section1-p1"><strong>路漫漫其修远兮,吾将上下而求索</strong></p>
+             <p class = "section1-p2">姓名:湛进林</p>
+             <p class = "section1-p3">求职:前端开发工程师</p>
+             <p class = "section1-p4">电话:18126482336</p>
+             <p class = "section1-p5">邮箱:jinlinzhan@foxmail.com</p>
+
+        </div> 
+        <div class = "section section2 ">
+             <h3><strong>专业技能</strong></h3> 
+             <div class = "skills">
+                  <div class = "col-sm-6"><img src = "images/about.png" alt = "关于专业技能图片"
+                       class = "skills-img">
+                   </div>
+                  <div class = "col-sm-6">
+                      <div class="padding-left"><h4>PC端</h4>
+                        <p>熟练使用HTML/HTML5/CSS/CSS3技术,Javascript编程,能够做出网页</p>
+                        <p>熟悉使用JQuery,Angular,BootStrap等前端框架,了解Node.js +MongoDB</p>
+                        <p>熟练运用Sublime text3 Firebug等网页设计调试软件,了解Photoshop的简单使用</p>
+                        <p>能够与后台人员协作定义接口,能够看懂java语言</p>
+                        <p>了解linux/unix常见命令使用.了解IOS App开发</P>
+                        <p>热爱新技术,有较强的学习能力,愿意学习新技术对工作的态度认真,已经适应了短期加班</p>
+                      </div>
+                      <i class="fa fa-magic"></i>
+                      <div class = "padding-left"><h4>客户端</h4>
+                        <p>了解zepto.js,正在学习客户端开发</p>
+                      </div> 
+                      <div class = "padding-left"><h4>其它</h4>
+                        <p>了解使用photoshop等切图工具</p>
+                        <p>能够看看懂PHP后台语言,了解node.js</p>
+                      </div>  
+                  </div>      
+             </div>
+
+        </div>
+        <!-- 我的作品 -->
+        <div class = "section section3" >
+                
+		             <h3>我的作品</h3>
+		             <div class = "slide active">
+		                 <div class = "pic">
+			                 <img class = "pic1" src = "images/wild.png"  alt = "项目图片">
+			                 <img class = "pic2" src = "images/wild2.png" alt = "项目图片">
+			                 <img class = "pic3" src = "images/wild3.png" alt = "项目图片">
+		                 </div>
+		                      <div class = "rightBox">
+				                 <h2>企业网站</h2>
+				                 <p><strong>技术实现:</strong>HTML CSS jQuery Bootstrap</p>
+				                 <p><strong>项目描述:</strong>使用HTML CSS对页面进行搭建,实现动画交互效果</br>来向用户传递信息</p>
+				                 <p><strong>实现主要过程:</strong></p>
+				                 <ul>
+				                 	<li>根据产品需求给出最优的解决方案,并完成效果实现</li>
+				                 	<li>主要利用CSS+HTML技术将psd设计稿还原成html网页</li>
+				                 	<li>使用jQuery及Bootstrap完成用户交互效果</li>
+				                 	<li>使用ajax技术向后台提交获取数据</li>
+				                 </ul>
+				                 <p><strong>项目收获:</strong></p>
+				                  <ul>
+				                  	<li>对js面对对象编程思想有了进一步的了解</li>
+				                  	<li>了解了网页中SEO的一些基本概念</li>
+				                  	<li>熟练使用firebug chrome调试工具调试条码</li>
+				                  </ul>
+				                  <p>项目地址:<a href = "http://www.baidu.com" target = "blank">点击跳转</a></p>
+				              </div>    
+		             </div>
+		             <div class = "slide ">第二屏幕</div>
+		           
+        </div>
+        <!-- 我的作品 end -->
+
+        <!-- 联系我 -->
+        <div class = "section section4">
+             <h3>联系我</h3>
+             <ul class = "contact">
+                 <li>电话:18126482336</li>
+                 <li>邮箱:jinlinzhan@foxmail.com</li>
+                 <li>博客:<a class = "blog" href = "http://blog.csdn.net/qq_27425537">http://blog.csdn.net/qq_27425537</a></li>
+                 <li>github:<a class = "github" href = "https://github.com/jimgen668">https://github.com/jimgen668</a></li>
+             </ul>
+        </div>
+        <!-- 联系我 end -->
+
+    </div>
+    <!-- .main-content end-->   
+    <!-- footer -->
+    <footer>
+      本页面只作为个人信息展示,不做其他商业用途
+    </footer>  
+ <script type = "text/javascript" src = "javascript/jquery.js"></script>
+<!--  <script type = "text/javascript" src = "javascript/jquery-ui-1.9.2.custom.js"></script>
+ --> <script type = "text/javascript" src = "javascript/move.js"></script>
+ <script type = "text/javascript" src = "javascript/jquery.fullpage.js"></script>
+ <script type = "text/javascript" src = "javascript/index.js"></script>
+
+</body>
+</html>
 
 
-</html>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
