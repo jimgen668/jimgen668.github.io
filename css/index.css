@@ -1,0 +1,356 @@
+
+/**********通用样式设置**************/
+*{
+   font-family:12px "microsoft yahei";
+   padding:0;
+   margin:0;
+   list-style:none;
+}
+
+/**********预加载样式部分 **************************/
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #fff;
+    background: none repeat scroll 0 0 #f9f9f9;
+}
+
+.sk-spinner-wordpress.sk-spinner {
+  background-color: #00a897;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: relative;
+  -webkit-animation: sk-innerCircle 1s linear infinite;
+          animation: sk-innerCircle 1s linear infinite;
+   }
+
+.sk-spinner-wordpress .sk-inner-circle {
+  display: block;
+  background-color: #fff;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 8px;
+  top: 5px;
+  left: 5px; }
+
+  
+@-webkit-keyframes sk-innerCircle {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes sk-innerCircle {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/*preloader end */
+
+
+/*************header样式部分**********************/
+header {
+	width:100%;
+  height:80px;
+  position:fixed;
+  z-index:999;
+  margin-bottom:20px;
+  background-color:#ffffff;
+
+}
+
+.row img{
+	 width:40px;
+	 height:40px;
+	 border:2px solid #369;
+	 border-radius:20px;
+}
+ .left {
+  float:left;
+  font-size:20px;
+  margin-top:20px;
+ }
+.left .text-center {
+	list-style:none;
+}
+.col-sm-3 {
+   margin:30px 0 0 -20px;
+   font-size:20px;
+}
+.col-sm-3 a {
+    margin-right:-20px;
+    text-decoration:none;
+    display:inline-block;
+    color:#6C6F74;
+
+}
+.col-sm-3 a:hover {
+	text-decoration:none;
+	background-color:#CCE8CF;
+}
+.col-sm-3 a:active {
+	color:#369;
+	text-decoration:none;
+}
+.skills-details {
+	width:80px;
+	height:160px;
+	margin-top:-5px;
+	border:1px solid #fff;
+	cursor:pointer;
+	background:#fff;
+	visibility:hidden;
+
+}
+.skills-details li  {
+    margin:20px 0 0 5px;
+}
+.skills-details li  a {
+	text-align: center;
+}
+
+.skills-details #pc {
+	padding-top:0px;
+}
+
+/* header end */
+
+/*************main-content样式 ********************/
+/* section */
+.section {
+	width:100%;
+	height:400px;
+
+}
+.section h3 {
+   text-align:center;
+
+}	
+
+#main-content {
+
+	 margin-top:-10px;
+	 position:relative;
+}
+
+<!-- 首页 -->
+.section .section1 h3 {
+	
+	text-align:center;
+	line-height:30px;
+	position:absolute;
+  color:#FFFFFF;
+  scale:1.5;
+}
+ .section1 {
+  background:url(../images/bg1.jpg)no-repeat;
+  z-index:9999;
+
+}
+.logo {
+   top:9%;
+   position:absolute;
+   z-index:2000;
+   overflow:visible;
+ }
+.section1 #img1 {
+	width:150px;
+	height:150px;
+	border:1px solid #369;
+	border-radius:75px;
+	position:relative;
+	margin-bottom:20px;
+}
+
+.section1-p1,.section1-p2 ,.section1-p3,.section1-p4,.section1-p5 {
+    margin-right:-2000px;
+    color:#FFFFFF;
+}
+.section1-p2 {
+	
+	margin-left:-80px;
+}
+.section1-p3 {
+	margin-left:10px;
+}
+.section1-p4 {
+	margin-left:-10px;
+}
+.section1-p5 {
+	margin-left:90px;
+}
+<!-- 首页 end-->
+
+<!-- 专业技能 -->
+.section .section2 {
+   margin-top:200px;
+}
+.section2 {
+
+}
+<!--我的作品 -->
+.section .section3 {
+
+}
+.section3 {
+  background:url(../images/bg3.jpg)no-repeat;
+}
+.section3 h3 {
+  top:8%;
+  left:50%;
+  position:absolute;
+
+}
+
+.slide{
+background:url(http://mainsite.oss-cn-hangzhou.aliyuncs.com/statics/topic/pi/assets/img/panel4_bg3.jpg) 50%;
+
+}
+.slide img:hover {
+	transform:scale(1.5);
+	transition:1s all;
+	z-index:9999;
+}
+.pic {
+   margin-left:50px;
+   float:left;
+}
+.slide .pic1 {
+	width:400px;
+	height:150px;
+	top:20%;
+	left:5%;
+	position:absolute;
+}
+.pic2 {
+	width:400px;
+	height:150px;
+   	top:35%;
+	left:13%;
+	position:absolute;
+
+}
+.pic3 {
+	width:400px;
+	height:150px;
+   	top:50%;
+	left:20%;
+	position:absolute;
+/*	margin:30px 0 0 -100px;*/
+}
+/*rightBox样式*/
+.rightBox {
+   margin:0 120px 100px 0 ;
+   float:right;
+
+}
+
+<!--联系我-->
+.section .section4 {
+  position:relative;
+}
+.section .section4 h3 {
+  margin-top:-100px;
+}
+.section4 {
+   border:1px solid #fff;
+   margin-bottom:100px;
+   background:url(../images/bg4.jpg);
+}
+.section4 h3 {
+   margin-left:-50px;
+}
+
+.contact {
+	margin:0 auto;
+	width:300px;
+	height:150px;
+	padding-top:20px;
+
+}
+.contact li  {
+	padding-top:20px;
+	font-size:16px;
+	font-weight:600;
+}
+.contact li a {
+  text-decoration:none;
+  color:#333333;
+
+}
+.contact li a:hover {
+  color:#F4D03F;
+}
+.blog {
+
+ 
+}
+.github {
+ 
+}
+
+
+/*@media screen and (min-width: 1500px){
+	html {
+
+	}
+	
+}*/
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
